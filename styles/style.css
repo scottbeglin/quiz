@@ -60,6 +60,13 @@ h2 {
     font-family: 'Press Start 2P', cursive, Calibri, Arial, sans-serif;
     cursor: pointer;
 }
+progress {
+    background-color: #f3f3f3;
+    border: 0;
+    height: 18px;
+    border-radius: 9px;
+    margin-top: 15rem;
+}
 
 /* media query is a set of conditions in which the code inside will be executed*/
 
