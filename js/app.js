@@ -76,12 +76,12 @@ $(document).ready(function () {
     ];
 
 
-    //Variables
+    // Variables
     var questionNum = 0;
     var questionTotal = 10;
     var correctTotal = 0;
 
-    //Hide quiz and results section
+    // Hide quiz and results section
     $('.quizSection').hide();
     $('.quizResults').hide();
     $('.progressBox').hide();
@@ -95,9 +95,11 @@ $(document).ready(function () {
         console.log('.quizStart', '.progressBox');
     });
 
-    //Rotate through questions as user inputs answer
+    // Display Question Box
 
-    //Quiz Finished, show results
+    // Rotate through questions as user inputs answer
+
+    // Quiz Finished, show results
 
 
 });
