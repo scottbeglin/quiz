@@ -4,7 +4,8 @@
 <head>
     <title>The 90's Quiz</title>
     <meta charset="utf-8" />
-    <link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Caveat+Brush' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css" />
 </head>
@@ -18,12 +19,15 @@
     </header>
 
     <section class="quizStart">
-        <h2 class="text"> Do you remember the 1990's???? </h2>
-        <h2 class="text"> Show off your smarts.....I dare you!</h2>
-        <button class="start-button" id="startQuizButton"> Let's Play!!</button>
+        <div id="quizBegin">
+            <h2 class="text"> Do you remember the 1990's???? </h2>
+            <h2 class="text"> Show off your smarts.....
+        I dare you!</h2>
+            <button class="start-button" id="startQuizButton"> Let's Play!!</button>
+        </div>
     </section>
     <section class="quizSection">
-        <div id="questionArea">
+        <div id="quizArea">
             <h3 class="questionText">
                 What was the highest grossing movie of the 1990’s?
             </h3>
@@ -39,9 +43,11 @@
         </div>
     </section>
     <section class="quizResults">
-        <h3 class="quizScore">Your Final Score</h3>
-        <h3 id="finalScore">10/10</h3>
-        <button class="startButton"> Play Again!</button>
+        <div id="quizEnd">
+            <h3 class="quizScore">Your Final Score</h3>
+            <h3 id="finalScore">10/10</h3>
+            <button class="startButton"> Play Again!</button>
+        </div>
     </section>
     <section class="progressBox">
         <progress value="10" min="1" max="100"></progress>
