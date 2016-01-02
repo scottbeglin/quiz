@@ -9,32 +9,36 @@
     font-size: 100%;
 }
 
+
 /* General Style */
 
 html {
     width: 100%;
     height: 100%;
-    background-color: greenyellow;
+    background-color: #272264;
+    background-image: url('../images/back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 body {
     position: relative;
     width: 100%;
     height: 38.5rem;
     margin: .75rem auto;
     font-family: 'Press Start 2P', cursive, Calibri, Arial, sans-serif;
-    background-image: url('../images/back.png');
-    background-repeat: no-repeat;
-    background-size: cover;
     text-align: center;
 }
+
 
 /* Header Section */
 
 nav {
     position: relative;
-    height: 10rem;
+    height: 5rem;
     padding: 1em;
 }
+
 nav h1 {
     text-transform: uppercase;
     font-weight: 700;
@@ -42,31 +46,42 @@ nav h1 {
     color: white;
 }
 
+
 /* Content Section */
 
-.quizBack {
-    margin: 0 auto;
-    width: 65%;
-    background-color: #EF4400;
+.quizStart,
+.quizSection,
+.quizResults {
+    background-image: url("../images/clear.jpg");
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 22rem;
+    margin-left: auto;
+    margin-right: auto;
 }
-h2 {
+
+h2,
+h3,
+li {
     padding: 1em 0.4em;
     font-size: 1.5em;
-    font-weight: 400;
-    line-height: 1em;
-    color: white;
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 2px 1px white, -2px -2px 1px white, -2px 2px 1px white, 2px -2px 1px white;
 }
-.start-button {
+
+button {
     font-family: 'Press Start 2P', cursive, Calibri, Arial, sans-serif;
     cursor: pointer;
 }
+
 progress {
     background-color: #f3f3f3;
     border: 0;
-    height: 18px;
     border-radius: 9px;
-    margin-top: 15rem;
+    margin-top: 5rem;
 }
+
 
 /* media query is a set of conditions in which the code inside will be executed*/
 
@@ -82,6 +97,7 @@ progress {
     }
 }
 
+
 /*ipad potrait*/
 
 @media only screen and (max-width: 768px) {
@@ -90,6 +106,7 @@ progress {
     }
 }
 
+
 /*iPhone landscape*/
 
 @media only screen and (max-width: 480px) {
@@ -97,6 +114,7 @@ progress {
         color: green;
     }
 }
+
 
 /*iPhone portrait*/
 
