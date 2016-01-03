@@ -85,11 +85,13 @@ $(document).ready(function () {
     $('.quizSection').hide();
     $('.quizResults').hide();
     $('.progressBox').hide();
+    /* $('.answerPic').hide();*/
 
     //Quiz Start
     $('#startQuizButton').click(function () {
         $('.quizSection').hide();
         $('.quizResults').hide();
+        /*$('.answerPic').hide();*/
         $('.quizStart').show();
         $('.progressBox').show();
         console.log('.quizStart', '.progressBox');
