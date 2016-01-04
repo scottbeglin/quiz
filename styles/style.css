@@ -29,6 +29,10 @@ body {
     text-align: center;
 }
 
+button:hover {
+    background-color: yellow;
+}
+
 
 /* Header Section */
 
@@ -53,7 +57,8 @@ nav h1 {
 
 .quizStart,
 .quizSection,
-.quizResults {
+.quizResults,
+.questionResults {
     background-color: chartreuse;
     border-radius: 1rem;
     padding: 1rem;
@@ -72,23 +77,33 @@ li {
     text-shadow: 2px 2px 1px white, -2px -2px 1px white, -2px 2px 1px white, 2px -2px 1px white;
 }
 
-button {
-    margin-top: 1rem;
-    font-family: 'Press Start 2P', cursive, Calibri, Arial, sans-serif;
+#answers {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+    text-align: left;
+    width: 75%;
+    font-size: 1.5rem;
     cursor: pointer;
 }
 
-#goodPic li {
-    display: inline-block;
-    margin-top: 10rem;
-    padding-left: 1rem;
+.questionNumber {
+    padding-top: 1.5rem;
 }
 
-progress {
-    background-color: #f3f3f3;
-    border: 0;
-    border-radius: 9px;
-    margin-top: 2.5rem;
+.finalScore {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+    text-shadow: .5px .5px .5px white, -1px .5px .5px white;
+}
+
+button {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-family: 'Caveat Brush', cursive, Calibri, Arial, sans-serif;
+    cursor: pointer;
 }
 
 
