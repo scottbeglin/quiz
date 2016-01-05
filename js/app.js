@@ -95,6 +95,7 @@ $(document).ready(function () {
 
     $('.quizSection').hide();
     $('.quizResults').hide();
+    $('.answerPicsLeft').hide();
     $('.answerPics').hide();
 
     /******At Quiz Section, allow user to click on answer and validate******/
@@ -109,8 +110,9 @@ $(document).ready(function () {
             console.log(correctTotal);
         }
 
-        /******At quiz end show correct answers to user******/
+        /******At quiz end show correct Q&A to user******/
 
+        $('.finalScore').append("<p>Question " + questions[questionNum].question + "<br />" + "</p>");
         $('.finalScore').append("<p>Answer:" + questions[questionNum].correctDetails + "</p>");
 
         /******At Quiz Finish, show score and pictures******/
