@@ -112,8 +112,8 @@ $(document).ready(function () {
 
         /******At quiz end show correct Q&A to user******/
 
-        $('.finalScore').append("<p>Question " + questions[questionNum].question + "<br />" + "</p>");
-        $('.finalScore').append("<p>Answer:" + questions[questionNum].correctDetails + "</p>");
+        $('.finalScore').append("<p>Q: " + questions[questionNum].question + "<br />" + "</p>");
+        $('.finalScore').append("<p>A: " + questions[questionNum].correctDetails + "</p> <br/>");
 
         /******At Quiz Finish, show score and pictures******/
 
